@@ -3,6 +3,7 @@
  */
 
 var http = require('http');
+var path = require('path');
 var requestGet = require('./lib/get');
 var requestPost = require('./lib/post');
 
@@ -16,6 +17,7 @@ http.createServer(function(request, response){
     if(request.method == 'GET'){
         var data = requestGet(request);
         response.write(JSON.stringify(data));
+        response.write(path);
     }else if(request.method == 'POST'){
         requestPost(request);
     }
