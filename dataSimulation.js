@@ -3,8 +3,8 @@
  */
 
 var http = require('http');
-var requestGet = require('./get');
-var requestPost = require('./post');
+var requestGet = require('./lib/get');
+var requestPost = require('./lib/post');
 
 http.createServer(function(request, response){
 
