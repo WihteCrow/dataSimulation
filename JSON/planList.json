@@ -1,0 +1,84 @@
+{
+    "status" : "success",
+    "message" : "亲，计划类型数据，请您查看",
+    "result" : [
+        {
+            "budget" : "123",
+            "_cost" : "21",
+            "_pay" : "21",
+            "_impressions" : "2",
+            "_click" : "2",
+            "_ctr" : "1",
+            "_cpc" : "2",
+            "_payCount" : "3",
+            "_favCount" : "2",
+            "_cvr" : "2",
+            "_realRoi" : "1"
+        },
+        {
+            "budget" : "123",
+            "_cost" : "21",
+            "_pay" : "21",
+            "_impressions" : "2",
+            "_click" : "2",
+            "_ctr" : "1",
+            "_cpc" : "2",
+            "_payCount" : "3",
+            "_favCount" : "2",
+            "_cvr" : "2",
+            "_realRoi" : "1"
+        },
+        {
+            "budget" : "123",
+            "_cost" : "21",
+            "_pay" : "21",
+            "_impressions" : "2",
+            "_click" : "2",
+            "_ctr" : "1",
+            "_cpc" : "2",
+            "_payCount" : "3",
+            "_favCount" : "2",
+            "_cvr" : "2",
+            "_realRoi" : "1"
+        },
+        {
+            "budget" : "123",
+            "_cost" : "21",
+            "_pay" : "21",
+            "_impressions" : "2",
+            "_click" : "2",
+            "_ctr" : "1",
+            "_cpc" : "2",
+            "_payCount" : "3",
+            "_favCount" : "2",
+            "_cvr" : "2",
+            "_realRoi" : "1"
+        },
+        {
+            "budget" : "123",
+            "_cost" : "21",
+            "_pay" : "21",
+            "_impressions" : "2",
+            "_click" : "2",
+            "_ctr" : "1",
+            "_cpc" : "2",
+            "_payCount" : "3",
+            "_favCount" : "2",
+            "_cvr" : "2",
+            "_realRoi" : "1"
+        },
+        {
+            "budget" : "123",
+            "_cost" : "21",
+            "_pay" : "21",
+            "_impressions" : "2",
+            "_click" : "2",
+            "_ctr" : "1",
+            "_cpc" : "2",
+            "_payCount" : "3",
+            "_favCount" : "2",
+            "_cvr" : "2",
+            "_realRoi" : "1"
+        }
+    ]
+}

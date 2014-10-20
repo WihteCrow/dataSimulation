@@ -14,15 +14,13 @@ http.createServer(function(request, response){
 
     });
 
-
     if(request.method == 'GET'){
         var data = requestGet(request);
         response.write(JSON.stringify(data));
-        response.write(path);
     }else if(request.method == 'POST'){
         requestPost(request);
     }
 
     response.end();
 
-}).listen(80);
+}).listen(8088);

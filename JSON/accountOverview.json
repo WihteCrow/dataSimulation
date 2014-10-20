@@ -1,0 +1,19 @@
+{
+    "status" : "success",
+    "message" : "亲，计划类型数据，请您查看",
+    "result" : [
+        {
+            "balances" : "123",
+            "cost" : "21",
+            "pay" : "21",
+            "impressions" : "2",
+            "click" : "2",
+            "ctr" : "1",
+            "cpc" : "2",
+            "payCount" : "3",
+            "favCount" : "2",
+            "cvr" : "2",
+            "realRoi" : "1"
+        }
+    ]
+}

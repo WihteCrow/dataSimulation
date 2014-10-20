@@ -1,5 +1,19 @@
 {
-    "name": "data simulation",
-    "version": "0.0.1",
-    "description" : "data simulation"
+  "name": "dataSimulation",
+  "version": "1.0.0",
+  "description": "---------------------\r ##用途\r 用于前后分离，为前端提供测试数据\r ##NODEJS\r 使用nodeJs提供数据",
+  "main": "dataSimulation.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WihteCrow/dataSimulation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WihteCrow/dataSimulation/issues"
+  },
+  "homepage": "https://github.com/WihteCrow/dataSimulation"
 }

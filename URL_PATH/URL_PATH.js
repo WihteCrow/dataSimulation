@@ -2,18 +2,15 @@
  * Created by Crow on 2014/9/25.
  */
 
-;(function(window){
-
-    window.host = 'http://qn.superexpress.cn:8080';
 
     var api = {
-        'engines' : '/qianniu/engines',
+        '/qianniu/engines' : 'planType',
 
         /*---------------------------------------------------------账户首页----------------------------------------------------------------*/
         'userIndex.reports' : '/qianniu/accounts/reports',
-        'userIndex.profiles' : '/qianniu/accounts/profiles',
+        '/qianniu/accounts/profiles' : 'accountOverview',
         'userIndex.planList' : '/qianniu/campaigns',
-        'userIndex.all' : '/qianniu/cust/getAccountInfo',                                               //全部数据
+        '/qianniu/cust/getAccountInfo' : 'planList',                                               //全部数据
         'userIndex.historicalTrends': '/qianniu/cust/reportChart',                                      //计划历史趋势
         'userIndex.planStatus': '/qianniu/common/campaignProfileBaseopr/updateCampaignOnlineStatus',    //计划状态
         'userIndex.bodyNumber': '/qianniu/cust/getCampadgroupCount',                                    //宝贝个数
@@ -100,9 +97,7 @@
     };
 
     var getApi = function(attribute){
-        return host + api[attribute];
+        return api[attribute];
     };
 
-    window.getApi = getApi;
-
-})(window);
+module.exports = getApi;

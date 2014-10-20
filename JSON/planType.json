@@ -1,10 +1,30 @@
 {
     "status" : "success",
     "message" : "亲，计划类型数据，请您查看",
-    "Result" : {
-        "-1" : "未托管",
-        "0" : "托管计划_01",
-        "1" : "托管计划_02",
-        "2" : "托管计划_03"
-    }
+    "result" : [
+        {
+            "url" : "",
+            "classs" : "",
+            "engineNo" : "1",
+            "enname" : "计划1"
+        },
+        {
+            "url" : "",
+            "classs" : "",
+            "engineNo" : "2",
+            "enname" : "计划2"
+        },
+        {
+            "url" : "",
+            "classs" : "",
+            "engineNo" : "3",
+            "enname" : "计划3"
+        },
+        {
+            "url" : "",
+            "classs" : "",
+            "engineNo" : "4",
+            "enname" : "未托管"
+        }
+    ]
 }
